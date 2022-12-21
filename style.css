@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font-size: 14px;
 }
 
 body {
-  background-color: #131516;
+  background-color: #191c1d;
   color: rgba(232, 230, 227, 0.87);
 }
 
@@ -52,7 +53,7 @@ a:hover {
 }
 main {
   display: grid;
-  grid-template-rows: 3.7fr 1fr 1fr 1fr 3.9fr;
+  grid-template-rows: 4.3fr 1fr 1fr 1fr 2.7fr;
 }
 
 .logo {
@@ -62,12 +63,19 @@ main {
 }
 
 .search {
-  border: 2.5px solid rgba(135, 135, 135, 0.434);
+  border: 2.9px solid rgba(135, 135, 135, 0.434);
   border-radius: 3em;
-  padding: 0.4rem 12rem;
+  padding: 0.15rem 0.15rem 0.15rem 0.4rem;
   justify-self: center;
   align-self: top;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+}
+
+#inputbar {
+  /* border: 3px solid green; */
+  padding: 0.2rem 12rem;
+  background-color: #2e2f3000;
+  border: 0.1px solid rgba(255, 0, 0, 0);
 }
 
 .twobuttons {
@@ -79,25 +87,40 @@ main {
 #button1 {
   color: rgba(232, 230, 227, 0.87);
   background-color: #0059b200;
-  padding: 0.7rem;
+  padding: 0.7rem 1rem;
+  border: 1.7px solid rgba(135, 135, 135, 0.434);
+  border-radius: 0.5rem;
+  margin-right: 0.7rem;
 }
 #button2 {
   color: rgba(232, 230, 227, 0.87);
   background-color: #2e2f3000;
-  padding: 0.7rem;
+  padding: 0.7rem 1rem;
+  border: 1.7px solid rgba(135, 135, 135, 0.434);
+  border-radius: 0.5rem;
+}
+
+#button1:hover {
+  cursor: pointer;
+}
+#button2:hover {
+  cursor: pointer;
 }
 
 .googlelang {
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   justify-self: center;
-  align-self: end;
+  align-self: center;
 }
 
 #turkce {
   color: rgb(93, 175, 226);
 }
 footer {
+  /* border: 3px solid yellowgreen; */
   background-color: #2e2f30;
+  display: grid;
+  align-items: end;
 }
 
 .footertop {

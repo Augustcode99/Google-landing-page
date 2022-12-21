@@ -20,7 +20,7 @@ header {
 }
 
 header #gridicon {
-  border: 3px solid green;
+  border: 1px solid green;
 }
 .topnav a {
   display: inline-block;
@@ -53,7 +53,7 @@ a:hover {
 }
 main {
   display: grid;
-  grid-template-rows: 4.3fr 1fr 1fr 1fr 2.7fr;
+  grid-template-rows: 4.3fr 1fr 1fr 1fr 1fr;
 }
 
 .logo {
@@ -63,19 +63,42 @@ main {
 }
 
 .search {
-  border: 2.9px solid rgba(135, 135, 135, 0.434);
+  border: 2.4px solid rgba(135, 135, 135, 0.434);
   border-radius: 3em;
   padding: 0.15rem 0.15rem 0.15rem 0.4rem;
   justify-self: center;
   align-self: top;
   margin-top: 1.5rem;
+  justify-items: center;
+  alig
+}
+
+.search:hover {
+  border: 2.4px solid rgba(135, 135, 135, 0.667);
+  box-shadow: 1px 1.5px 1px rgba(135, 135, 135, 0.667) ;
+
 }
 
 #inputbar {
-  /* border: 3px solid green; */
-  padding: 0.2rem 12rem;
+  border: 3px solid green;
+  width: 500px;
+  padding: 0.2rem;
+  color: rgba(232, 230, 227, 0.87);
   background-color: #2e2f3000;
   border: 0.1px solid rgba(255, 0, 0, 0);
+}
+
+#inputbar:focus {
+  outline: 0;
+ }
+
+
+#Standard_product_icon:hover {
+  cursor: pointer;
+}
+
+.miclogo:hover {
+  cursor: pointer;
 }
 
 .twobuttons {

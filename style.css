@@ -10,21 +10,26 @@ body {
 }
 
 header {
+  /* border: 3px solid green; */
   display: grid;
   grid-template-columns: 1fr;
-}
-main {
-  display: grid;
-  grid-template-rows: 5fr 1fr 1fr 5fr;
-}
-a {
-  text-decoration: none;
-  color: rgba(232, 230, 227, 0.87);
+  grid-template-rows: auto;
+  grid-template-rows: 1fr;
+  justify-items: end;
 }
 
+header #gridicon {
+  border: 3px solid green;
+}
 .topnav a {
   display: inline-block;
   color: rgba(232, 230, 227, 0.87);
+}
+
+.topnav a:nth-child(1) {
+  padding: 0.5rem;
+}
+.topnav a:nth-child(2) {
   padding: 0.5rem;
 }
 
@@ -33,28 +38,88 @@ a {
   background-color: #1a73e8;
   padding: 0.8rem 1.6rem;
   border-radius: 0.4rem;
+  text-decoration: none;
+  border: 3px solid red;
 }
 
+a {
+  text-decoration: none;
+  color: rgba(232, 230, 227, 0.87);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+main {
+  display: grid;
+  grid-template-rows: 3.7fr 1fr 1fr 1fr 3.9fr;
+}
+
+.logo {
+  /* border: 3px solid rgb(63, 63, 63); */
+  justify-self: center;
+  align-self: end;
+}
+
+.search {
+  border: 2.5px solid rgba(135, 135, 135, 0.434);
+  border-radius: 3em;
+  padding: 0.4rem 12rem;
+  justify-self: center;
+  align-self: top;
+  margin-top: 2rem;
+}
+
+.twobuttons {
+  /* border: 2px solid red; */
+  justify-self: center;
+  align-self: end;
+}
+
+#button1 {
+  color: rgba(232, 230, 227, 0.87);
+  background-color: #0059b200;
+  padding: 0.7rem;
+}
+#button2 {
+  color: rgba(232, 230, 227, 0.87);
+  background-color: #2e2f3000;
+  padding: 0.7rem;
+}
+
+.googlelang {
+  border: 2px solid orange;
+  justify-self: center;
+  align-self: end;
+}
+
+#turkce {
+  color: rgb(93, 175, 226);
+}
 footer {
   background-color: #2e2f30;
 }
 
 .footertop {
-  border: 1px solid red;
-  padding: 1rem 1rem 1rem 2rem;
+  padding: 0.7rem 0.7rem 0.7rem 1.2rem;
 }
 
 .footerbottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding: 1rem 0.5rem;
 }
 
-.footerbottoml {
+.footerbottom a {
+  padding: 1rem;
 }
 
 .footerbottomr {
 }
 
-#turkce {
-  color: rgb(93, 175, 226);
+.footerbottom {
+  color: red;
 }
 
 hr {

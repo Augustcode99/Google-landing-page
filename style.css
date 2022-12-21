@@ -121,7 +121,7 @@ main {
 }
 
 #button1 {
-  color: rgba(232, 230, 227, 0.87);
+  color: rgba(212, 205, 205, 0.87);
   background-color: #0059b200;
   padding: 0.7rem 1rem;
   border: 1.7px solid rgba(135, 135, 135, 0.434);
@@ -129,7 +129,7 @@ main {
   margin-right: 0.7rem;
 }
 #button2 {
-  color: rgba(232, 230, 227, 0.87);
+  color: rgba(212, 205, 205, 0.87);
   background-color: #2e2f3000;
   padding: 0.7rem 1rem;
   border: 1.7px solid rgba(135, 135, 135, 0.434);
@@ -138,9 +138,13 @@ main {
 
 #button1:hover {
   cursor: pointer;
+  color: rgba(232, 230, 227, 0.87);
+  border: 1.7px solid rgba(135, 135, 135, 0.632);
 }
 #button2:hover {
   cursor: pointer;
+  color: rgba(232, 230, 227, 0.87);
+  border: 1.7px solid rgba(135, 135, 135, 0.632);
 }
 
 .googlelang {

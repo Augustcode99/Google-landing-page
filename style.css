@@ -13,6 +13,10 @@ body {
   background-color: #191c1d;
   color: rgba(232, 230, 227, 0.87);
 }
+
+html {
+  height: 100%;
+}
 a {
   color: rgba(232, 230, 227, 0.87);
 }
@@ -45,6 +49,13 @@ header {
 .topnav a:nth-child(1),
 .topnav a:nth-child(2) {
   justify-self: end;
+}
+
+#gridicon:hover {
+  padding: 0.2rem;
+  border: 3px solid #c6c6c61b;
+  border-radius: 5rem;
+  background-color: #c6c6c68a;
 }
 
 #sign-in {
@@ -155,21 +166,20 @@ footer {
 .footerbottom {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   padding: 1rem 0.5rem;
+}
+
+.footerbottoml {
+  justify-self: start;
+}
+.footerbottomr {
+  justify-self: end;
 }
 
 .footerbottom a {
   padding: 1rem;
 }
 
-.footerbottomr {
-}
-
-.footerbottom {
-  color: red;
-}
-
 hr {
-  opacity: 0.4;
+  opacity: 0.35;
 }

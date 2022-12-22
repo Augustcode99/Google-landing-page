@@ -8,8 +8,6 @@
 
 html,
 body {
-  /* width: 100%;
-  height: 100%;  */
   background-color: #191c1d;
   color: rgba(232, 230, 227, 0.87);
 }
@@ -25,16 +23,9 @@ a:hover {
   text-decoration: underline;
 }
 
-/* article {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-} */
-
 header {
   display: grid;
   grid-template-columns: 1fr;
-  /* grid-template-rows: auto;
-  grid-template-rows: 1fr; */
   justify-items: end;
 }
 
@@ -97,7 +88,7 @@ main {
   width: 500px;
   padding: 0.2rem;
   color: rgba(232, 230, 227, 0.87);
-  background-color: #2e2f3000;
+  background-color: #00000000;
   border: 0.1px solid rgba(255, 0, 0, 0);
 }
 
@@ -114,7 +105,6 @@ main {
 }
 
 .twobuttons {
-  /* border: 2px solid red; */
   justify-self: center;
   align-self: end;
 }
@@ -147,7 +137,6 @@ main {
 }
 
 .googlelang {
-  /* border: 2px solid orange; */
   justify-self: center;
   align-self: center;
 }
@@ -156,7 +145,6 @@ main {
   color: rgb(93, 175, 226);
 }
 footer {
-  /* border: 3px solid yellowgreen; */
   background-color: #2e2f30;
   display: grid;
   align-items: end;
